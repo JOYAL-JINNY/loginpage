@@ -1,0 +1,87 @@
+body{
+    background-image: url(seahore.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+.reg{
+    text-align: center;
+    width: 500px;
+    height: 480px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    border: 2px solid whitesmoke;
+    box-shadow: 0 0 20px;
+    margin-left: 350px;
+    margin-top: 50px;
+
+}
+.sub:hover{
+    color: blue;
+    background: linear-gradient(rgb(192, 199, 236),white);
+}
+
+h1{
+    font-size: 45px;
+    color:rgb(245, 248, 248);
+}
+#sel{
+    width:210px;
+    height:30px;
+    border-radius: 30px;
+    margin-top: 10px;
+
+}
+#fn{
+    margin-left: -300px;
+    color: white;
+}
+#emn{
+    margin-left: -300px;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: beige;
+}
+#ph{
+    width:250px;
+}
+#ad{
+    color: white;
+    margin-left: 15px;
+}
+#adr{
+    width: 310px;
+
+}
+#phn{
+    color: white;
+    margin-left: -50px;
+
+}
+
+#dob{
+    color: white;
+    margin-left: -85px;
+}
+#em{
+    width: 410px;
+}
+input{
+    margin-top: 10px;
+    border-radius: 10px;
+    border:none;
+    width:200px;
+    height: 25px;
+
+}
+.sub{
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 35px;
+    color: white;
+    background-color: transparent;
+}

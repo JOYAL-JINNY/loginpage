@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="riverintro.css">
+</head>
+<script>
+    function check()
+    {
+        var user = document.getElementById("name")
+        var em = document.getElementById("email")
+        var pa = document.getElementById("password")
+        if(user.value == "")
+        {
+            alert(" please check your name entered or not")
+            document.form1.username.focus();
+            return false;
+
+        }
+        if(em.value == "")
+        {
+            alert(" please check your Email entered or not")
+            document.form1.emailid.focus();
+            return false;
+        }
+        if(pa.value == "")
+        {
+            alert(" please check your password entered or not")
+            document.form1.userpass.focus();
+            return false;
+            
+        }
+        return true;
+    }
+</script>
+<body>
+    <div class="login">
+    <h1>LOGIN</h1>
+         <form action="demo.html" onsubmit="check()" target="_blank" name="form1" method="post">
+        <!-- <form action="demo.html" target="_blank" name="form1" mathod="post"> -->
+            <div class="email">
+            <input type="email"   id="email" name="emailid"  required placeholder="Enter your Email">
+        </div>
+        <div class="name">
+            <input type="text"  id="name"  name="username"  required placeholder="Enter your Name">
+        </div>
+        <div class="pass">
+            <input type="password"  id="password"  name="userpass"   required placeholder="Enter your password">
+        </div>
+        <button type="submit">sign-in</button>
+        <a href="#">FORGET PASSWORD</a>   
+    </form>
+    <a id="ae" target="_blank" href="riverreg.html">
+        <button class= "button2"> CREATE AN ACCOUNT</button>
+         </a>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATE ACCOUNT</title>
+    <link rel="stylesheet" href="riverreg.css">
+</head>
+<body>
+    <div class="reg">
+        <h1>Create an Account</h1>
+        <hr>
+
+        <div class="r1">
+            <label id="fn">FULL NAME:</label><BR>
+            <input type="text" placeholder="first name">
+            <input type="text" placeholder="last name">
+            <br>
+            <label id="emn">Email Address:</label><br>
+            <input  id="em" type="email" placeholder="Email ">
+            <br>
+            <label id="dob">DATE OF BIRTH: </label>
+            <input type="date">
+            <br>
+            <label id="phn">Phone Number:</label>
+            <input  id="ph" type="number" placeholder="Phone Number ">
+                <br><label id="ad" >ADDRESS:</label>
+                <input id="adr" type="text" placeholder="address">
+                <br><select  id="sel">
+                        <option hidden>country</option>
+                        <option >india</option>
+                        <option>america</option>
+                        <option>others</option>
+                </select>
+                <input type="number" placeholder="PINCODE">
+                <br><br>
+                <button  onclick="res()" class="sub">SUBMIT</button>
+                <script>
+                        function res()
+                        {
+                            alert("YOUR ACCOOUNT CREATED SUCCESSFULLY");
+                        }
+                </script>
+        </div>
+    </div>
+
+</body>
+</html>
